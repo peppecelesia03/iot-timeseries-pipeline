@@ -1,10 +1,10 @@
-# 📡 Real-Time IoT Streaming Pipeline & Analytics Dashboard
+# Real-Time IoT Streaming Pipeline & Analytics Dashboard
 
 Una soluzione **End-to-End** moderna per l'acquisizione, la gestione e la visualizzazione in streaming di dati provenienti da sensori IoT in tempo reale.
 
 ---
 
-## 💡 Informazioni sul Progetto
+## Informazioni sul Progetto
 
 Questo progetto dimostra l'architettura completa di una pipeline di dati industriale per il mondo IoT. 
 
@@ -12,7 +12,7 @@ I sensori generano metriche (temperatura, umidità, pressione) che vengono invia
 
 ---
 
-## 🎯 Caratteristiche Principali
+## Caratteristiche Principali
 
 * **Ingestione in Tempo Reale**: Ricezione di flussi di dati continui a bassa latenza via protocollo MQTT.
 * **Archiviazione Time-Series**: Database ottimizzato per gestire grandi volumi di dati temporali ed eseguire query ad alte prestazioni.
@@ -22,7 +22,7 @@ I sensori generano metriche (temperatura, umidità, pressione) che vengono invia
 
 ---
 
-## 🏗️ Flusso dei Dati
+## Flusso dei Dati
 
 1. **Sensori IoT** ➔ Inviano la telemetria al Broker MQTT.
 2. **Ingestion Engine** ➔ Processa i messaggi e li salva sul Database Time-Series.
@@ -31,7 +31,7 @@ I sensori generano metriche (temperatura, umidità, pressione) che vengono invia
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Message Broker**: Eclipse Mosquitto (MQTT)
 * **Database**: TimescaleDB (PostgreSQL)
